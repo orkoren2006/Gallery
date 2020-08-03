@@ -1,0 +1,46 @@
+table {
+    background-color: beige;
+}
+
+th {
+    padding: 20px;
+}
+
+td {
+    padding: 20px;
+    margin: 1px
+}
+
+.add-book-button {
+    margin-bottom: 5px;
+}
+
+.next-page {
+    margin-top: 5px;
+}
+
+.add-book-input {
+    margin-bottom: 5px;
+}
+
+
+.book-modal {
+    background-color: lightgray;
+    padding: 10px;
+    position: absolute;
+    float: left;
+    top: 10px;
+    height: 90%;
+    min-width: 300px;
+    text-align: center;
+} 
+
+.book-modal button {
+    position: relative;
+    float: right;
+}
+
+.book-modal.img {
+    height: 10%;
+    width: 10%;
+}

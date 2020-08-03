@@ -1,0 +1,42 @@
+.picture {
+    height: 500px;
+    width: 500px;
+}
+
+button {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: 3px solid #023059;
+    margin-left: 24px;
+    background-color:white;
+    color: #023059;
+    border-radius: 16px;
+    font-family: Ringside Regular A,Ringside Regular B,Rubik,Lato,Lucida Grande,Lucida Sans Unicode,Tahoma,Sans-Serif;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+button:hover{
+    background-color:#023059;
+    color: white;
+}
+
+img {
+    height: 500px;
+    width: 500px;
+}
+body{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.options{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
