@@ -61,10 +61,9 @@ function renderProjs() {
   </a>
   <div class="portfolio-caption">
     <h4>${project.name}</h4>
-    <p class="text-muted">Illustration</p>
+    <p class="text-muted">${project.type}</p>
   </div>
 </div>`
-    console.log(project.id);
   })
   $('#projects').html(strHTML)
 }
@@ -77,14 +76,14 @@ function renderModal(modalId) {
   console.log(gProjs[index].desc)
   $('.modal-body').html(`
               <h2>${gProjs[index].name}</h2>
-              <p class="item-intro text-muted">${gProjs[index].title}.</p>
+              <p class="item-intro text-muted">${gProjs[index].title}</p>
               <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.jpg" alt="">
               <p>${gProjs[index].desc}</p>
               <ul class="list-inline">
                 <li>Date: ${gProjs[index].publishedAt}</li>
                 <li>Client: Threads</li>
-                <li>Category: Illustration</li>
-                <li><a href="projects/${gProjs[index].name}/index.html" target="_blank">${gProjs[index].url}</li>
+                <li>Category: ${gProjs[index].type}</li>
+                <li><a href="projects/${gProjs[index].id}/index.html" target="_blank">${gProjs[index].url}</li>
               </ul>
                  ` )
 };

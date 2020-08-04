@@ -1,46 +1,45 @@
 console.log('Starting up');
 
-var gProjs = [
+var gProjs = [ 
     {
-        id: "minesweeper",
-        name: "Minesweeper",
-        title: "Better push those boxes",
-        desc: "lorem ipsum lorem ipsum lorem ipsum",
-        url: "projs/sokoban",
-        publishedAt: 1448693940000,
+        id: "touchnums",
+        name: "Touch Nums",
+        type: "Boardgame",
+        title: "Check all numbered cells by their order",
+        desc: "It might look simple, but it's my first excersice and I'm proud of it!",
+        url: "Play now!",
+        publishedAt: new Date().getFullYear(),
         labels: ["Matrixes", "keyboard events"],
     },
 
     {
-        id: "touchnums",
-        name: "Touch nums",
-        title: "Better push those boxes",
-        desc: "lorem ipsum lorem ipsum lorem ipsum",
-        url: "projs/sokoban",
-        publishedAt: 1448693940000,
-        labels: ["Matrixes", "keyboard events"],
+        id: "minesweeper",
+        name: "Minesweeper",
+        type: "Boardgame",
+        title: "Watch out of the mines!",
+        desc: "My first complete board game I created. Based mostly on the negs function with an engaging 90's graphic",
+        url: "Play now!",
+        publishedAt: new Date().getFullYear(),
+        labels: ["Matrixes", "keyboard events", "negs"],
     },
+
     {
-        id: "touchnums",
-        name: "Touch nums",
-        title: "Better push those boxes",
-        desc: "lorem ipsum lorem ipsum lorem ipsum",
-        url: "projs/sokoban",
-        publishedAt: 1448693940000,
+        id: "bookshop",
+        name: "Bookshop",
+        type: "CRUDL",
+        title: "My first online store project",
+        desc: "This is how you do it with CRUDL",
+        url: "Check it out!",
+        publishedAt: new Date().getFullYear(),
         labels: ["Matrixes", "keyboard events"],
     },
    
     
 ]
 
-
-function createNewProject (id) {
+function createNewProject (id) { // to finish later
 
 };
-
-// createNewProject('minesweeper', 'this is a project I worked on ')
-
-
 
 
 function submitForm () {
