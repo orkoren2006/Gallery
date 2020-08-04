@@ -73,7 +73,6 @@ function renderModal(modalId) {
   var index = gProjs.findIndex(function (project) {
     return modalId == project.id
   })
-  console.log(gProjs[index].desc)
   $('.modal-body').html(`
               <h2>${gProjs[index].name}</h2>
               <p class="item-intro text-muted">${gProjs[index].title}</p>
