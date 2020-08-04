@@ -57,7 +57,7 @@ function renderProjs() {
         <i class="fa fa-plus fa-3x"></i>
       </div>
     </div>
-    <img class="img-fluid" src="img/portfolio/01-thumbnail.jpg" alt="">
+    <img class="img-fluid" src="img/portfolio/${project.id}-thumbnail.jpg" alt="">
   </a>
   <div class="portfolio-caption">
     <h4>${project.name}</h4>
@@ -77,7 +77,7 @@ function renderModal(modalId) {
   $('.modal-body').html(`
               <h2>${gProjs[index].name}</h2>
               <p class="item-intro text-muted">${gProjs[index].title}</p>
-              <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.jpg" alt="">
+              <img class="img-fluid d-block mx-auto" src="img/portfolio/${gProjs[index].id}.jpg" alt="">
               <p>${gProjs[index].desc}</p>
               <ul class="list-inline">
                 <li>Date: ${gProjs[index].publishedAt}</li>
